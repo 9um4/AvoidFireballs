@@ -245,8 +245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b0a35bcc124d2e489bbf47b9a651976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 2028811248}
   Rigidbody2D: {fileID: 0}
+  Animator: {fileID: 2028811250}
   moveSpeed: 1
+  controller: {fileID: 9100000, guid: 98fef4c3a8d72f749ab6e78e252a7226, type: 2}
   isDevMode: 1
 --- !u!212 &2028811248
 SpriteRenderer:
